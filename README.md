@@ -22,7 +22,7 @@ pod 'AIFNetworking'
 
 ## Author
 
-joywt, wangtie@dushu.io
+wangtie, wywangtie@163.com
 
 ## License
 
