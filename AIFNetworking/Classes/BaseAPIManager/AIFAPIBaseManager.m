@@ -12,7 +12,6 @@
 #import "AIFCache.h"
 #import "AIFLogger.h"
 #import "AIFServiceFactory.h"
-#import "AIFCommonParamsGeneratorFactory.h"
 //#import "BCAIFSignatureGenerator.h"
 //#import "BCAIFParamGenerator.h"
 #define AIFCallAPI(REQUEST_METHOD, REQUEST_ID)                                          \

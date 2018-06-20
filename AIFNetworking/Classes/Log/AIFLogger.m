@@ -8,14 +8,12 @@
 
 #import "AIFLogger.h"
 #import "NSObject+AIFNetworkingMethods.h"
-#import "AIFApiProxy.h"
-#import "AIFServiceFactory.h"
 #import "NSArray+AIFNetworkingMethod.h"
 #import "NSMutableString+AIFNetworkingMethods.h"
 
 @interface AIFLogger ()
 
-@property (nonatomic, strong, readwrite) AIFLoggerConfiguration *configParams;
+//@property (nonatomic, strong, readwrite) AIFLoggerConfiguration *configParams;
 
 @end
 
@@ -111,19 +109,19 @@
 {
     self = [super init];
     if (self) {
-        self.configParams = [[AIFLoggerConfiguration alloc] init];
+//        self.configParams = [[AIFLoggerConfiguration alloc] init];
     }
     return self;
 }
 
-- (void)logWithActionCode:(NSString *)actionCode params:(NSDictionary *)params
-{
-    NSMutableDictionary *actionDict = [[NSMutableDictionary alloc] init];
-    actionDict[@"act"] = actionCode;
-    [actionDict addEntriesFromDictionary:params];
-//    [actionDict addEntriesFromDictionary:[AIFCommonParamsGenerator commonParamsDictionaryForLog]];
-    NSDictionary *logJsonDict = @{self.configParams.sendActionKey:[@[actionDict] AIF_jsonString]};
-    [[AIFApiProxy sharedInstance] callPOSTWithParams:logJsonDict serviceIdentifier:self.configParams.serviceType moduleName:self.configParams.sendActionModule methodName:self.configParams.sendActionMethod success:nil fail:nil];
-}
+//- (void)logWithActionCode:(NSString *)actionCode params:(NSDictionary *)params
+//{
+//    NSMutableDictionary *actionDict = [[NSMutableDictionary alloc] init];
+//    actionDict[@"act"] = actionCode;
+//    [actionDict addEntriesFromDictionary:params];
+////    [actionDict addEntriesFromDictionary:[AIFCommonParamsGenerator commonParamsDictionaryForLog]];
+//    NSDictionary *logJsonDict = @{self.configParams.sendActionKey:[@[actionDict] AIF_jsonString]};
+//    [[AIFApiProxy sharedInstance] callPOSTWithParams:logJsonDict serviceIdentifier:self.configParams.serviceType moduleName:self.configParams.sendActionModule methodName:self.configParams.sendActionMethod success:nil fail:nil];
+//}
 
 @end

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0478273ACCA6042BFEBFF581680A6F0B /* NSURLRequest+AIFNetworkingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 3998E173798B0CF06944F5A56DDE5203 /* NSURLRequest+AIFNetworkingMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		095CAAD2C422DF36057525DBD98CDA5F /* AIFCommonParamsGeneratorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C4694AA8BE79FE885674500B1E705C31 /* AIFCommonParamsGeneratorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1066E708C7BDD5A2F0CB700190824FBE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A39126969A1FBAEF5C77690E4D82AF /* MobileCoreServices.framework */; };
 		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */; };
@@ -95,10 +94,7 @@
 		ED728A939C9703813877B710E8EC8A22 /* AIFURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = BA264C35A58CC3F29B1B85B3D96AD02F /* AIFURLResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43581AD63883CAA415A71F817EED5D51 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */; };
-		F3671FC4E1F376748BFE996FDE8A59C4 /* AIFLoggerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 606F38C09308AD9D3C8303606AEA2108 /* AIFLoggerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F77C34ECCFF728501D3C6FA3DC46E0EC /* AIFCommonParamsGeneratorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF44689C3F704979D736741FEB6242DF /* AIFCommonParamsGeneratorFactory.m */; };
 		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F92E9E921D24DD6DECEDCFCDF5181EF3 /* AIFLoggerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FABA8765FA828700BBB0878FA0AFEF7 /* AIFLoggerConfiguration.m */; };
 		F9ABD779A342302225806C0CF9C7CC94 /* AIFUUIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04210A164A0DB8FB1A5FC950D4D6D6EA /* AIFUUIDGenerator.m */; };
 		FC9A1F26B5F5C8AC7E07E1A29F2D36D3 /* AIFServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4AA27906F216737616BE6C73D59B4D /* AIFServiceFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -179,13 +175,11 @@
 		594CC9B3A75FE47BB1E6A435F165A7C6 /* Pods-AIFNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AIFNetworking_Example.modulemap"; sourceTree = "<group>"; };
 		5984E4F3B43E8EADFECBE322F863F127 /* AIFTelephonyNetworkGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIFTelephonyNetworkGenerator.h; sourceTree = "<group>"; };
 		5E4AA27906F216737616BE6C73D59B4D /* AIFServiceFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIFServiceFactory.h; sourceTree = "<group>"; };
-		606F38C09308AD9D3C8303606AEA2108 /* AIFLoggerConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIFLoggerConfiguration.h; sourceTree = "<group>"; };
 		60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		61B213B94C16365FA5B253932C262B93 /* AIFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIFNetworking.h; path = AIFNetworking/Classes/AIFNetworking.h; sourceTree = "<group>"; };
 		69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		6B2369258201F5E9962F272641207AE2 /* AIFService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIFService.m; sourceTree = "<group>"; };
 		6E7559AE1F1190E56A19065084BDA82F /* Pods-AIFNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AIFNetworking_Example-dummy.m"; sourceTree = "<group>"; };
-		6FABA8765FA828700BBB0878FA0AFEF7 /* AIFLoggerConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIFLoggerConfiguration.m; sourceTree = "<group>"; };
 		708FCD18BB9B2CD0995142078CBF2BD3 /* AIFApiProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIFApiProxy.h; sourceTree = "<group>"; };
 		70C6C071C8FFDC8A81BD6E72168F2254 /* Pods-AIFNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AIFNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -205,7 +199,6 @@
 		915A1F3037D880419D9228C363A3661E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DF117628DEC3436333CC4ECE3F8CE5 /* NSDictionary+AIFNetworkingMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AIFNetworkingMethods.m"; sourceTree = "<group>"; };
 		92122066FFEF4F898CB772F8720B7DF6 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		922446D720D9FC9200E4DC94 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94C7001B0B5286F4ECC71D7257DAB575 /* NSDictionary+AIFNetworkingMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AIFNetworkingMethods.h"; sourceTree = "<group>"; };
 		996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
@@ -228,9 +221,7 @@
 		BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		BCF3BAEB1908B536E2B21F71B104B71E /* AIFCachedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIFCachedObject.m; sourceTree = "<group>"; };
 		BD7AC25F495AD983C996709E0FC68A0B /* AIFRequestGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIFRequestGenerator.m; sourceTree = "<group>"; };
-		BF44689C3F704979D736741FEB6242DF /* AIFCommonParamsGeneratorFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIFCommonParamsGeneratorFactory.m; sourceTree = "<group>"; };
 		C0388DB4B4572BC08A3012EDED9A3B1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4694AA8BE79FE885674500B1E705C31 /* AIFCommonParamsGeneratorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIFCommonParamsGeneratorFactory.h; sourceTree = "<group>"; };
 		C591B741B1C892111F9466245DCBAEBE /* AIFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AIFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		C90448D578CCDAD67B5FC29FEACF5CFE /* AIFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AIFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D590AEA79AC56F900AAABE569B823B /* Pods-AIFNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AIFNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -428,7 +419,6 @@
 		77D61B45F29607A1410642BF4ABF3719 /* AIFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				922446D620D9FC8700E4DC94 /* Test */,
 				61B213B94C16365FA5B253932C262B93 /* AIFNetworking.h */,
 				7E142EA98E9F5AF17901D3D777CECD03 /* APIProxy */,
 				A01F3BC92C015C507EFF908DE78F59DB /* BaseAPIManager */,
@@ -502,15 +492,6 @@
 				C015C5E223184310A507F6F6D795AB1F /* UIKit */,
 			);
 			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		922446D620D9FC8700E4DC94 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				922446D720D9FC9200E4DC94 /* test.h */,
-			);
-			name = Test;
-			path = AIFNetworking/Classes/Test;
 			sourceTree = "<group>";
 		};
 		933DA97DFBA287233E0B4FDAE4DC9CED /* Development Pods */ = {
@@ -625,8 +606,6 @@
 		E0905DFD83CF19F743F6683824863FE1 /* Generators */ = {
 			isa = PBXGroup;
 			children = (
-				C4694AA8BE79FE885674500B1E705C31 /* AIFCommonParamsGeneratorFactory.h */,
-				BF44689C3F704979D736741FEB6242DF /* AIFCommonParamsGeneratorFactory.m */,
 				8B64103C2135C998AD8E62447AD03DA3 /* AIFRequestGenerator.h */,
 				BD7AC25F495AD983C996709E0FC68A0B /* AIFRequestGenerator.m */,
 				5984E4F3B43E8EADFECBE322F863F127 /* AIFTelephonyNetworkGenerator.h */,
@@ -665,8 +644,6 @@
 		FF9967E8F84D192EB473BBDB094CFCE0 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				606F38C09308AD9D3C8303606AEA2108 /* AIFLoggerConfiguration.h */,
-				6FABA8765FA828700BBB0878FA0AFEF7 /* AIFLoggerConfiguration.m */,
 				21E44C42BE8DE680E98B0A54CD7DA67C /* AIFNetworkingConfiguration.plist */,
 				E5F6810B690267798CEEDE6E83B6D0A9 /* AIFNetworkingConfigurationManager.h */,
 				CA5FF1E0AB64D2142F6A43355E6F9832 /* AIFNetworkingConfigurationManager.m */,
@@ -686,9 +663,7 @@
 				A220E015D45BBB830317BB2D261FA977 /* AIFApiProxy.h in Headers */,
 				88554D38118AFB9786BE6E20DB9E4D09 /* AIFCache.h in Headers */,
 				3F15861284D66ED4630A4018715C0FAB /* AIFCachedObject.h in Headers */,
-				095CAAD2C422DF36057525DBD98CDA5F /* AIFCommonParamsGeneratorFactory.h in Headers */,
 				4177C6FB125315630A1CC7ABE7278BCA /* AIFLogger.h in Headers */,
-				F3671FC4E1F376748BFE996FDE8A59C4 /* AIFLoggerConfiguration.h in Headers */,
 				6F768A96D62CC985947CEED0437729AD /* AIFNetworking-umbrella.h in Headers */,
 				1812D222CD6A3A3BF60009F990363D42 /* AIFNetworking.h in Headers */,
 				19051F2960F57EA6A820447FF4C99614 /* AIFNetworkingConfigurationManager.h in Headers */,
@@ -902,9 +877,7 @@
 				464BAC251C567D37140E999132928C7F /* AIFApiProxy.m in Sources */,
 				156D21345390453046C705B055B2C40B /* AIFCache.m in Sources */,
 				9AAA718E0DE377F8A5258DD8FAA29B2E /* AIFCachedObject.m in Sources */,
-				F77C34ECCFF728501D3C6FA3DC46E0EC /* AIFCommonParamsGeneratorFactory.m in Sources */,
 				AC90181D97086623491B32EBEA716BE2 /* AIFLogger.m in Sources */,
-				F92E9E921D24DD6DECEDCFCDF5181EF3 /* AIFLoggerConfiguration.m in Sources */,
 				C25FAE187E053F82E6DF731399A4BDF6 /* AIFNetworking-dummy.m in Sources */,
 				AFCBA3A86D8C8D892C2BF11D2EEB9F33 /* AIFNetworkingConfiguration.plist in Sources */,
 				38EC7D74C6B4669BA4D362153950727E /* AIFNetworkingConfigurationManager.m in Sources */,
