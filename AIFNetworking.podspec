@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AIFNetworking'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Discrete network framework for iOS develop.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,8 @@ TODO: Add long description of the pod here.
 #  s.public_header_files = 'AIFNetworking/Classes/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'AFNetworking', '3.2.0'
+  
+  s.subspec 'Test' do |ss|
+      ss.source_files = 'AIFNetworking/Classes/Test/*'
+  end
 end
