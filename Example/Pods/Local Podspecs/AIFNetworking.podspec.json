@@ -1,9 +1,9 @@
 {
   "name": "AIFNetworking",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Discrete network framework for iOS develop.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/joywt/WTAIFNetworking",
+  "homepage": "https://github.com/joywt/AIFNetworking",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,14 +12,13 @@
     "wangtie": "wywangtie@163.com"
   },
   "source": {
-    "git": "https://github.com/joywt/WTAIFNetworking.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/joywt/AIFNetworking.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AIFNetworking/Classes/*",
-  "public_header_files": "AIFNetworking/Classes/*.h",
+  "source_files": "AIFNetworking/Classes/**/*",
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [

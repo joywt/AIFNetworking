@@ -7,7 +7,7 @@
 //
 
 #import "AIFNetworkingConfigurationManager.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import "AIFUUIDGenerator.h"
 #import "AIFTelephonyNetworkGenerator.h"
 #import "UIDevice+Identifier.h"

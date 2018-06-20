@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - AIFNetworking (0.1.0):
+  - AIFNetworking (0.1.1):
     - AFNetworking (= 3.2.0)
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  AIFNetworking: 7d0317196ae42d3db1e65874955d654336604185
+  AIFNetworking: e1965a7d4144b9d68b76b312c8e00433a7786fc0
 
 PODFILE CHECKSUM: ca12f210af1769948edb0d013d2961bd2f4c6e56
 

@@ -13,7 +13,7 @@
 #import "NSURLRequest+AIFNetworkingMethods.h"
 #import "NSDictionary+AIFNetworkingMethods.h"
 #import "AIFLogger.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import "AIFNetworkingConfigurationManager.h"
 @interface AIFRequestGenerator ()
 @property (nonatomic, strong) AFHTTPRequestSerializer *httpRequestSerializer;
