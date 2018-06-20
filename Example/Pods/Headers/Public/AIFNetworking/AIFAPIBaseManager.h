@@ -1,0 +1,1 @@
+../../../../../AIFNetworking/Classes/AIFAPIBaseManager.h

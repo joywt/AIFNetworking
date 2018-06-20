@@ -1,0 +1,1 @@
+../../../../../AIFNetworking/Classes/AIFNetworkingConfigurationManager.h

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AIFNetworking'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AIFNetworking.'
+  s.summary          = 'Discrete network framework for iOS develop.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/joywt/AIFNetworking'
+  s.homepage         = 'https://github.com/joywt/WTAIFNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'joywt' => 'wangtie@dushu.io' }
-  s.source           = { :git => 'https://github.com/joywt/AIFNetworking.git', :tag => s.version.to_s }
+  s.author           = { 'wangtie' => 'wywangtie@163.com' }
+  s.source           = { :git => 'https://github.com/joywt/WTAIFNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AIFNetworking/Classes/**/*'
+  s.source_files = 'AIFNetworking/Classes/*'
   
   # s.resource_bundles = {
   #   'AIFNetworking' => ['AIFNetworking/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'AIFNetworking/Classes/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'AFNetworking', '3.2.0'
 end

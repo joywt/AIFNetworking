@@ -1,0 +1,6 @@
+framework module AIFNetworking {
+  umbrella header "AIFNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
