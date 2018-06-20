@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AIFNetworking_Example' do
+  pod 'AIFNetworking', :path => '../'
+
+  target 'AIFNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
