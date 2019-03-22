@@ -282,7 +282,7 @@ typedef NS_ENUM (NSUInteger, AIFAPIManagerErrorType){
  baseManager是不会去设置errorMessage的，派生的子类manager可能需要给controller提供错误信息。所以为了统一外部调用的入口，设置了这个变量。
  派生的子类需要通过extension来在保证errorMessage在对外只读的情况下使派生的manager子类对errorMessage具有写权限。
  */
-@property (nonatomic, copy, readonly) NSString *errorMessage;
+@property (nonatomic, copy) NSString *errorMessage;
 @property (nonatomic, readonly) AIFAPIManagerErrorType errorType;
 @property (nonatomic, strong) AIFURLResponse *response;
 

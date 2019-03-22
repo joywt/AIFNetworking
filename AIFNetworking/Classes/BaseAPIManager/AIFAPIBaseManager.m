@@ -34,7 +34,7 @@ REQUEST_ID = [[AIFApiProxy sharedInstance] call##REQUEST_METHOD##WithParams:apiP
 @property (nonatomic, assign, readwrite) BOOL isLoading;
 @property (nonatomic, assign) BOOL isNativeDataEmpty;
 
-@property (nonatomic, copy, readwrite) NSString *errorMessage;
+//@property (nonatomic, copy, readwrite) NSString *errorMessage;
 @property (nonatomic, readwrite) AIFAPIManagerErrorType errorType;
 @property (nonatomic, strong) NSMutableArray *requestIdList;
 @property (nonatomic, strong) AIFCache *cache;

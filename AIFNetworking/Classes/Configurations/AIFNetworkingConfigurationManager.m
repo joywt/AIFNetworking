@@ -57,7 +57,7 @@
 - (BOOL)isReachable
 {
     if ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus == AFNetworkReachabilityStatusUnknown){
-        return NO;
+        return YES;
     } else {
         return [[AFNetworkReachabilityManager sharedManager] isReachable];
     }
