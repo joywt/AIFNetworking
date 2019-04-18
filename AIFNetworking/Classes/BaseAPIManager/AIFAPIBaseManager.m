@@ -38,6 +38,8 @@ REQUEST_ID = [[AIFApiProxy sharedInstance] call##REQUEST_METHOD##WithParams:apiP
 @property (nonatomic, readwrite) AIFAPIManagerErrorType errorType;
 @property (nonatomic, strong) NSMutableArray *requestIdList;
 @property (nonatomic, strong) AIFCache *cache;
+@property (nonatomic, copy) void(^successBlock)(AIFAPIBaseManager *manager);
+@property (nonatomic, copy) void(^failedBlock)(AIFAPIBaseManager *manager);
 @end
 
 @implementation AIFAPIBaseManager
@@ -71,6 +73,9 @@ REQUEST_ID = [[AIFApiProxy sharedInstance] call##REQUEST_METHOD##WithParams:apiP
 - (void)dealloc{
     [self cancelAllRequests];
     self.requestIdList = nil;
+    
+    _successBlock = nil;
+    _failedBlock = nil;
 }
 
 
@@ -118,7 +123,12 @@ REQUEST_ID = [[AIFApiProxy sharedInstance] call##REQUEST_METHOD##WithParams:apiP
     NSInteger requestId = [self loadDataWithParams:params];
     return requestId;
 }
-
+- (NSInteger)loadDataAPIDidSuccess:(void(^)(AIFAPIBaseManager * manager))successBlock didFailed:(void(^)(AIFAPIBaseManager *manager))failedBlock
+{
+    self.successBlock = successBlock;
+    self.failedBlock = failedBlock;
+    return [self loadData];
+}
 - (NSInteger)loadDataWithParams:(id)params
 {
     NSInteger requestId = 0;
@@ -193,12 +203,21 @@ REQUEST_ID = [[AIFApiProxy sharedInstance] call##REQUEST_METHOD##WithParams:apiP
         if ([self beforePerformSuccessWithResponse:response]) {
             if ([self.child shouldLoadFromNative]) {
                 if (response.isCache == YES) {
+                    if (self.successBlock){
+                        self.successBlock(self);
+                    }
                     [self.delegate managerCallBackAPIDidSuccess:self];
                 }
                 if (self.isNativeDataEmpty) {
+                    if (self.successBlock){
+                        self.successBlock(self);
+                    }
                     [self.delegate managerCallBackAPIDidSuccess:self];
                 }
             } else {
+                if (self.successBlock){
+                    self.successBlock(self);
+                }
                 [self.delegate managerCallBackAPIDidSuccess:self];
             }
         }
@@ -242,6 +261,9 @@ REQUEST_ID = [[AIFApiProxy sharedInstance] call##REQUEST_METHOD##WithParams:apiP
         self.fetchedRawData = [response.responseData copy];
     }
     if ([self beforePerformFailWithResponse:response]) {
+        if (self.failedBlock) {
+            self.failedBlock(self);
+        }
         [self.delegate managerCallBackAPIDidFailed:self];
     }
     [self afterPerformFailWithResponse:response];
