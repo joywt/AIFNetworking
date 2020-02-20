@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = joywt;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 55L68D42KJ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -257,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -487,6 +491,7 @@
 			baseConfigurationReference = FB66874CB2ADA55BF3BB661C /* Pods-AIFNetworking_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55L68D42KJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AIFNetworking/AIFNetworking-Prefix.pch";
 				INFOPLIST_FILE = "AIFNetworking/AIFNetworking-Info.plist";
@@ -502,6 +507,7 @@
 			baseConfigurationReference = EC63679EE94BEFEFC15857AB /* Pods-AIFNetworking_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55L68D42KJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AIFNetworking/AIFNetworking-Prefix.pch";
 				INFOPLIST_FILE = "AIFNetworking/AIFNetworking-Info.plist";
