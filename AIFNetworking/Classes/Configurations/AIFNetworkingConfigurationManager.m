@@ -35,7 +35,7 @@
         sharedInstance = [[AIFNetworkingConfigurationManager alloc] init];
         sharedInstance.shouldCache = YES;
 //        sharedInstance.serviceIsOnline = NO;
-        sharedInstance.apiNetworkingTimeoutSeconds = 20.0f;
+        sharedInstance.apiNetworkingTimeoutSeconds = 100.0f;
         sharedInstance.cacheOutdataTimeSeconds = 300;
         sharedInstance.cacheCountLimit = 1000;
 //        sharedInstance.shouldSetParamsInHTTPBodyButGET = NO;
