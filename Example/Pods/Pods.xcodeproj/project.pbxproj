@@ -74,7 +74,6 @@
 		AC90181D97086623491B32EBEA716BE2 /* AIFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A87B28337556A3E3A01CE0F32DA78553 /* AIFLogger.m */; };
 		AE16FC5B4326038C8624FACCD693CB01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5B595A8C2548A98051D11D33AC2723 /* CoreGraphics.framework */; };
 		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFCBA3A86D8C8D892C2BF11D2EEB9F33 /* AIFNetworkingConfiguration.plist in Sources */ = {isa = PBXBuildFile; fileRef = 21E44C42BE8DE680E98B0A54CD7DA67C /* AIFNetworkingConfiguration.plist */; };
 		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */; };
 		BC5857C971A95072A5251B64FB7675C6 /* NSDictionary+AIFNetworkingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C7001B0B5286F4ECC71D7257DAB575 /* NSDictionary+AIFNetworkingMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE4DD7A3F3ED0C5C1B8FE9A7A13D6533 /* AIFUUIDGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FC69266E12A3285296E7DA4EEB1A989D /* AIFUUIDGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -147,7 +146,6 @@
 		16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		17BEAC7C69661EDF133B864ED04D7D2E /* Pods-AIFNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AIFNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		21702491F6327B16B12A73FC60377522 /* NSArray+AIFNetworkingMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AIFNetworkingMethod.m"; sourceTree = "<group>"; };
-		21E44C42BE8DE680E98B0A54CD7DA67C /* AIFNetworkingConfiguration.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = AIFNetworkingConfiguration.plist; sourceTree = "<group>"; };
 		235D46DABDC7D39E09827B51C676BC23 /* AIFService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIFService.h; sourceTree = "<group>"; };
 		2C1C16349A1172CBC35EDAEA7F5433C5 /* Pods_AIFNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIFNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7FEB824815A08BBB83281A646F1EB8 /* Pods-AIFNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AIFNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -644,7 +642,6 @@
 		FF9967E8F84D192EB473BBDB094CFCE0 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				21E44C42BE8DE680E98B0A54CD7DA67C /* AIFNetworkingConfiguration.plist */,
 				E5F6810B690267798CEEDE6E83B6D0A9 /* AIFNetworkingConfigurationManager.h */,
 				CA5FF1E0AB64D2142F6A43355E6F9832 /* AIFNetworkingConfigurationManager.m */,
 			);
@@ -814,6 +811,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -879,7 +877,6 @@
 				9AAA718E0DE377F8A5258DD8FAA29B2E /* AIFCachedObject.m in Sources */,
 				AC90181D97086623491B32EBEA716BE2 /* AIFLogger.m in Sources */,
 				C25FAE187E053F82E6DF731399A4BDF6 /* AIFNetworking-dummy.m in Sources */,
-				AFCBA3A86D8C8D892C2BF11D2EEB9F33 /* AIFNetworkingConfiguration.plist in Sources */,
 				38EC7D74C6B4669BA4D362153950727E /* AIFNetworkingConfigurationManager.m in Sources */,
 				48FE35E7BFAB4E177A2FC568B8AC24B0 /* AIFRequestGenerator.m in Sources */,
 				76FB0092DC1AB6B7FEA54E2002DB8FE4 /* AIFService.m in Sources */,
