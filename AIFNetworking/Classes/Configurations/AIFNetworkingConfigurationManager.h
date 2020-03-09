@@ -54,8 +54,6 @@
 - (void)updateUserToken:(NSString *)userToken;
 - (void)cleanUserInfo;
 
-- (void)switchServerConfigBaseUrl;
-- (void)switchServerBaseUrl;
 
 
 @end
