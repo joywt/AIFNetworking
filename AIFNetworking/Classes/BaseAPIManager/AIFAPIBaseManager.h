@@ -296,8 +296,6 @@ typedef NS_ENUM (NSUInteger, AIFAPIManagerErrorType){
 
 //尽量使用loadData这个方法,这个方法会通过param source来获得参数，这使得参数的生成逻辑位于controller中的固定位置
 - (NSInteger)loadData;
-- (void)managerCallBackAPIDidSuccess:(AIFAPIBaseManager *)manager;
-- (void)managerCallBackAPIDidFailed:(AIFAPIBaseManager *)manager;
 - (NSInteger)loadDataAPIDidSuccess:(void(^)(AIFAPIBaseManager * manager))successBlock didFailed:(void(^)(AIFAPIBaseManager *manager))failedBlock;
 - (void)cancelAllRequests;
 - (void)cancelRequestWithRequestId:(NSInteger)requestID;
